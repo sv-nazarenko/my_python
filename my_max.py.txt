@@ -1,0 +1,7 @@
+def my_max(x,y):
+  if x > y:
+    print(x)
+  elif y > x:
+    print(y)
+  else:
+    print("Равнозначные числа")

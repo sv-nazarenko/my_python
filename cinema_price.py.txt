@@ -1,0 +1,184 @@
+cinema = input('Введите название фильма:')
+if cinema:
+  str(cinema)
+  if cinema == 'Паразиты':
+    date = input('Введите дату (сегодня, завтра):')
+    if date == 'завтра':
+      time = input('Введите время(12,16,20):')
+      if time == "12":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(237.5*x) + " рублей")
+        elif x>=20:
+          print(str(187.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+      if time == "16":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(332.5*x) + " рублей")
+        elif x>=20:
+          print(str(262.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+      if time == "20":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(427.5*x) + " рублей")
+        elif x>=20:
+          print(str(337.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+    if date == 'сегодня':
+     time = input('Введите время(12,16,20):')
+     if time == "12":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(250*x) + " рублей")
+        elif x>=20:
+          print(str(200*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+     if time == "16":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(350*x) + " рублей")
+        elif x>=20:
+          print(str(280*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+     if time == "20":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(450*x) + " рублей")
+        elif x>=20:
+          print(str(360*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+  if cinema == '1917':
+   date = input('Введите дату (сегодня, завтра):')
+   if date == 'завтра':
+      time = input('Введите время(10,13,16):')
+      if time == "10":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(237.5*x) + " рублей")
+        elif x>=20:
+          print(str(187.5*x) +' рублей')
+        else:
+          print("Некорректно указано количичество билетов.")
+      if time == "13":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(332.5*x) + " рублей")
+        elif x>=20:
+          print(str(262.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов")
+      if time == "16":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(427.5*x) + " рублей")
+        elif x>=20:
+          print(str(337.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+   if date == 'сегодня':
+     time = input('Введите время(10,13,16):')
+     if time == "10":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(250*x) + " рублей")
+        elif x>=20:
+          print(str(200*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+     if time == "13":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(350*x) + " рублей")
+        elif x>=20:
+          print(str(280*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+     if time == "16":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(450*x) + " рублей")
+        elif x>=20:
+          print(str(360*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+  if cinema == 'Соник в кино':
+    date = input('Введите дату (сегодня, завтра):')
+    if date == 'завтра':
+      time = input('Введите время(10,14,18):')
+      if time == "10":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(332.5*x) + " рублей")
+        elif x>=20:
+          print(str(262.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов")
+      if time == "14":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(427.5*x) + " рублей")
+        elif x>=20:
+          print(str(337.5*x) +' рублей')
+        else:
+          print("Некорректно указано количичество билетов.")
+      if time == "18":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(427.5*x) + " рублей")
+        elif x>=20:
+          print(str(337.5*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+    if date == 'сегодня':
+      time = input('Введите время(10,14,18):')
+      if time == "10":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(350*x) + " рублей")
+        elif x>=20:
+          print(str(280*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+      if time == "14":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(450*x) + " рублей")
+        elif x>=20:
+          print(str(360*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+      if time == "18":
+        tickets = input('Укажите количество билетов:')
+        x = int(tickets)
+        if 1 <= x < 20:
+          print(str(450*x) + " рублей")
+        elif x>=20:
+          print(str(360*x) +' рублей')
+        else:
+          print("Некорректно указано количество билетов.")
+  

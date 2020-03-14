@@ -1,0 +1,14 @@
+number = input("Введите номер элемента: ")
+if number:
+  element = float(number)
+  if element == 3:
+    print("Li")
+  if element == 25:
+    print("Mn")
+  if element == 80:
+    print("Hg")
+  if element == 17:
+    print("Cl")
+  else:
+    print("Другой элемент")
+else: print("Введите номер элемента!")
