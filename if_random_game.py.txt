@@ -1,0 +1,13 @@
+import random
+random_game = int(input('Введите число от 1 до 4:'))
+rand_number = random.randint(1,4)
+print("Случайное число: ", rand_number)
+if 1 <= random_game <= 4:
+   if random_game == rand_number:
+     print("Победа!")
+   elif random_game < rand_number:
+     print('Поражение, введенное число меньше случайного ')
+   else:
+     print('Поражение, введенное число больше случайного')
+else:
+  print("Число не соотвествует диапозону")
